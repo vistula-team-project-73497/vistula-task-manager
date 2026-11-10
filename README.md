@@ -55,3 +55,28 @@ student ID from the JSON file when you click Show Contributor.
 
 - [Contribution page](https://vistula-team-project-73497.github.io/vistula-task-manager/contribution.html)
 - [Contribution JSON](https://vistula-team-project-73497.github.io/vistula-task-manager/contribution.json)
+
+## User stories
+
+### Search tasks by title
+
+> As a student with many tasks, I want to search by task title, so that I can quickly find the task I need.
+
+- [ ] Typing part of a title shows only tasks with matching titles.
+- [ ] If no titles match, the page displays "No matching tasks."
+- [ ] Clearing the search field shows the full task list again.
+
+### Sort tasks by due date
+
+> As a student with several deadlines, I want to sort my tasks by due date, so that I can see what I need to work on first.
+
+- [ ] Selecting "Earliest due date first" puts tasks with earlier dates above tasks with later dates.
+- [ ] Tasks without a due date appear after tasks with a due date.
+- [ ] Selecting "Default order" restores the original order.
+
+## Agile in the real world
+
+Spotify builds an app for listening to music and podcasts. Its product teams run experiments on the mobile app's home page to see how changes work for listeners. For example, a team can compare two versions of a recommendation feature. The team can use the results to decide whether to keep the change or try another version. Working in these small steps helps the team learn what improves the app before rolling out a change more widely.
+
+[Source — Spotify Engineering](https://www.engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation)
+
