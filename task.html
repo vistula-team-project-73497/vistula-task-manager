@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Task Manager</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 2rem auto; padding: 0 1rem; }
+    form, label { display: grid; gap: 0.5rem; }
+    input, select, button { font: inherit; padding: 0.5rem; }
+    #error { color: #a00020; }
+    li { margin-bottom: 0.5rem; }
+  </style>
+  <script src="tasks.js" defer></script>
+</head>
+<body>
+  <h1>Student Task Manager</h1>
+
+  <form id="task-form" novalidate>
+    <label>
+      Task title
+      <input id="title" type="text" required>
+    </label>
+
+    <label>
+      Due date
+      <input id="due-date" type="date" required>
+    </label>
+
+    <label>
+      Priority
+      <select id="priority">
+        <option>Low</option>
+        <option selected>Normal</option>
+        <option>High</option>
+      </select>
+    </label>
+
+    <label>
+      Category
+      <select id="category">
+        <option>Studies</option>
+        <option>Work</option>
+        <option>Home</option>
+        <option>Other</option>
+      </select>
+    </label>
+
+    <p id="error" role="alert"></p>
+    <button type="submit">Add task</button>
+  </form>
+
+  <h2>My tasks</h2>
+  <ul id="task-list"></ul>
+</body>
+</html>
