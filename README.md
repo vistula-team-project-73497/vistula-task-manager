@@ -60,19 +60,19 @@ student ID from the JSON file when you click Show Contributor.
 
 ### Search tasks by title
 
-> As a student with many tasks, I want to search by task title, so that I can quickly find the task I need.
+- As a student with many tasks, I want to search by task title, so that I can quickly find the task I need.
 
-- [ ] Typing part of a title shows only tasks with matching titles.
-- [ ] If no titles match, the page displays "No matching tasks."
-- [ ] Clearing the search field shows the full task list again.
+ Typing part of a title shows only tasks with matching titles.
+ If no titles match, the page displays "No matching tasks."
+  Clearing the search field shows the full task list again.
 
 ### Sort tasks by due date
 
-> As a student with several deadlines, I want to sort my tasks by due date, so that I can see what I need to work on first.
+- As a student with several deadlines, I want to sort my tasks by due date, so that I can see what I need to work on first.
 
-- [ ] Selecting "Earliest due date first" puts tasks with earlier dates above tasks with later dates.
-- [ ] Tasks without a due date appear after tasks with a due date.
-- [ ] Selecting "Default order" restores the original order.
+ Selecting "Earliest due date first" puts tasks with earlier dates above tasks with later dates.
+ Tasks without a due date appear after tasks with a due date.
+ Selecting "Default order" restores the original order.
 
 ## Agile in the real world
 
