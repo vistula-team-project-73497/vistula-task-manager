@@ -80,3 +80,7 @@ Spotify builds an app for listening to music and podcasts. Its product teams run
 
 [Source — Spotify Engineering](https://www.engineering.atspotify.com/2026/1/why-we-use-separate-tech-stacks-for-personalization-and-experimentation)
 
+## Module 3 — Improve Your Task Manager
+
+- [Open the live task page](https://vistula-team-project-73497.github.io/vistula-task-manager/tasks.html)
+- [Read my five-sentence reflection](REFLECTION.md)
